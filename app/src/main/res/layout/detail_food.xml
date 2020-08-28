@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Toolbar
+        android:id="@+id/tb"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#262770"
+        android:titleTextColor="#fff"
+        android:title="Chi tiết sản phẩm">
+
+
+    </Toolbar>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_gravity="center">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên:"
+                android:layout_below="@+id/imgImage"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:id="@+id/Ten"
+                />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgImage"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:text="Sample title"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/gia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:padding="5dp"
+                android:text="Giá:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgImage"
+
+                />
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="45dp"
+                android:padding="5dp"
+                android:text="120.000"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgImage"
+
+                />
+
+            <TextView
+                android:id="@+id/khoiluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:padding="5dp"
+                android:text="Khối lượng:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgImage"
+
+                />
+            <TextView
+                android:id="@+id/txtKhoiluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="70dp"
+                android:padding="5dp"
+                android:text="850g"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgImage"
+
+                />
+            <TextView
+                android:id="@+id/noisanxuat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:padding="5dp"
+                android:text="Nơi sản xuất:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgImage"
+
+                />
+            <TextView
+                android:id="@+id/txtnoisx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="95dp"
+                android:padding="5dp"
+                android:text="Anh"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgImage"
+
+                />
+            <TextView
+                android:id="@+id/ngaysx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:padding="5dp"
+                android:text="Ngày sản xuất:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgImage"
+
+                />
+            <TextView
+                android:id="@+id/txtngaysx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="120dp"
+                android:padding="5dp"
+                android:text="10/10/2020"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgImage"
+
+                />
+            <TextView
+                android:id="@+id/hsd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="145dp"
+                android:padding="5dp"
+                android:text="Hạn sử dụng:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgImage"
+
+                />
+            <TextView
+                android:id="@+id/txthsd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="145dp"
+                android:padding="5dp"
+                android:text="10/10/2021"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgImage"
+
+                />
+
+            <Button
+                android:id="@+id/btnadd"
+                android:layout_width="65dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgImage"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="175dp"
+                android:background="#262770"
+                android:text="Add" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
